@@ -11,5 +11,7 @@ namespace StoredProc.Data
 
         public DbSet<Employee> Employee { get; set; }
 
+        public DbSet<StoredProc.Models.Computer> Computer { get; set; }
+
     }
 }
